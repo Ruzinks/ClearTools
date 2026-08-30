@@ -1,36 +1,46 @@
-# Clai (Command Line Interface)
+# ClearTools
 
-**Clai** es la herramienta interactiva de línea de comandos perteneciente a la suite **ClearTools**. Diseñada para procesar medios, descargar contenido y gestionar documentos PDF de forma rápida, eficiente y 100% local.
+**ClearTools** es un ecosistema modular de herramientas y utilidades de línea de comandos en Python. Diseñado para alojar múltiples aplicaciones autónomas, combina procesamiento de archivos, automatización y gestión de medios en un solo lugar.
 
----
-
-### 💡 ¡No entres en pánico! (Nota sobre la Consola)
-
-Si nunca has usado una herramienta basada en terminal o ves texto en pantalla negra/azul al abrir la aplicación: **¡no te asustes ni te preocupes!** 
-
-* 🛡️ **Es 100% seguro:** Clai no modifica archivos sensibles de tu sistema operativo ni ejecuta nada invasivo.
-* 💬 **Es una consola interactiva:** No necesitas escribir comandos complejos de Windows. Clai te guiará con menús claros, mensajes en color e instrucciones sencillas.
-* 🚪 **Fácil de salir:** Puedes cerrar la aplicación en cualquier momento simplemente escribiendo `exit` o cerrando la ventana.
+La herramienta principal de la suite es **CLAI** *(Command Line Interface)*, una consola interactiva avanzada diseñada para reemplazar la necesidad de comandos del sistema nativo al realizar tareas de medios y gestión de documentos.
 
 ---
 
-## 🚀 ¿Qué puedes hacer con Clai?
+## Suite de Herramientas
 
-* **🎵 Descarga de Medios:** Extrae y convierte audios de YouTube a formato `.mp3` o descarga videos en alta calidad (`.mp4`) en segundos.
-* **📄 Gestión de PDFs:** Lee texto de archivos `.pdf` directamente en la pantalla, convierte archivos de texto plano (`.txt`) a `.pdf` y copia rangos de páginas específicos hacia nuevos documentos.
-* **📂 Navegación de Sistema:** Muévete por tus carpetas y consulta archivos con una interfaz limpia visualmente.
+Actualmente, **ClearTools** integra las siguientes herramientas:
+
+* **CLAI (Command Line Interface):** Consola interactiva autónoma con soporte para navegación de archivos, descargas de medios (YouTube/Audio/Video en MP3/MP4) y manipulación de documentos PDF.
+* *(Próximamente...)* Nuevas utilidades y módulos en desarrollo.
 
 ---
 
-## 🛠️ Modos de Uso
+## Filosofía del Proyecto
 
-### Opción 1: Ejecutable directo (`Clai.exe`)
-Si descargaste el ejecutable:
-1. Haz doble clic sobre `Clai.exe`.
-2. Se abrirá la ventana interactiva.
-3. ¡Listo! Ya puedes empezar a ingresar comandos.
+* **100% Gratuito y Local:** Funciona en tu equipo sin necesidad de claves API ni suscripciones de pago.
+* **Consola Interactiva Propia (CLAI):** Motor REPL dedicado con historial de comandos y estilo gráfico enriquecido en terminal.
+* **Agnóstico al Sistema Operativo:** Misma experiencia y sintaxis en Windows, Linux y macOS.
+* **Arquitectura Escalable:** Preparado para incorporar nuevas aplicaciones dentro de la suite ClearTools.
 
-### Opción 2: Ejecución desde el código fuente (Python)
-Si tienes el entorno configurado:
-```cmd
-python -m clai
+---
+
+## Estructura del Repositorio
+
+```text
+ClearTools/
+├── cleartools/              # Paquete principal de la suite
+│   ├── __init__.py
+│   ├── __main__.py          # Punto de entrada de CLAI
+│   ├── cli.py               # Motor REPL de la consola CLAI
+│   ├── core/
+│   │   ├── __init__.py
+│   │   └── console.py       # Renderizado de consola interactiva
+│   └── modules/
+│       ├── __init__.py
+│       ├── media.py         # Módulo de descargas (YouTube/MP3)
+│       ├── pdf.py           # Módulo de lectura/escritura de PDF
+│       └── sysops.py        # Módulo de operaciones de sistema
+├── README.md
+└── requirements.txt
+
+Por Clearline :)
