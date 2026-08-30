@@ -10,9 +10,9 @@ La herramienta insignia de la suite es **Clai** *(Command Line Interface)*, una 
 
 No necesitas instalar Python ni configurar entornos para probar la herramienta principal de la suite:
 
-[![Descargar Clai](https://img.shields.io/badge/Descargar-Clai.exe%20v1.0.0-brightgreen?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/TU_USUARIO/ClearTools/releases/latest/download/Clai.exe)
+[![Descargar Clai](https://img.shields.io/badge/Descargar-Clai.exe%20v1.0.0-brightgreen?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Ruzinks/ClearTools/releases/latest/download/Clai.exe)
 
-> 💡 **¿Buscas el ejecutable portátil?** [Descarga Clai.exe directamente aquí](https://github.com/TU_USUARIO/ClearTools/releases/latest/download/Clai.exe) y haz doble clic para iniciar la consola.
+> 💡 **¿Buscas el ejecutable portátil?** [Descarga Clai.exe directamente aquí](https://github.com/Ruzinks/ClearTools/releases/latest/download/Clai.exe) y haz doble clic para iniciar la consola.
 
 ---
 
