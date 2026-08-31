@@ -15,6 +15,8 @@
 
 ---
 
+---
+
 ## 📜 Historial de Versiones y Novedades
 
 ### [v1.2.0] - 30/08/26
@@ -30,21 +32,11 @@
 
 ---
 
-### [v1.1.0] - 30/08/26
-#### Añadido
-- **Módulo PDF (`pdf`):** Lectura, inspección de metadatos, conversión de TXT a PDF y extracción de páginas (`pdf copy`).
-- **Descargas Multimedia (`get`):** Integración con `yt-dlp` para extracción de video y audio MP3.
-- **Manejo del Historial:** Navegación por comandos anteriores con las teclas `Flecha Arriba` y `Flecha Abajo`.
-
----
-
 ### [v1.0.1] - 29/08/26
 #### Añadido
 - Lanzamiento inicial de **Clai**.
 - Interfaz gráfica basada en `CustomTkinter`.
 - Comandos básicos de sistema: `list`, `goto`, `cat`, `open`, `sys`, `info`, `clear` y `logo`.
-
----
 
 ## 🚀 Uso Rápido (Entorno Python)
 
