@@ -1,35 +1,23 @@
-# ⚡ Clai (Command Line Interface)
+# Clai
 
-**Clai** es la herramienta interactiva de línea de comandos perteneciente a la suite **ClearTools**. Diseñada para procesar medios, extraer audio, descargar contenido y gestionar documentos PDF de forma rápida, eficiente y 100% local.
-
----
-
-### 💡 ¡No entres en pánico! (Nota sobre la Consola)
-
-Si nunca has usado una herramienta basada en terminal o ves una pantalla de consola al abrir la aplicación: **¡no te preocupes ni te asustes!**
-
-* 🛡️ **Es 100% seguro:** Clai funciona de manera aislada y no modifica archivos ni configuraciones sensibles de tu sistema operativo.
-* 💬 **Es una consola interactiva:** No necesitas aprender comandos difíciles de Windows. Clai te guía con menús en color, mensajes claros e instrucciones simples.
-* 🚪 **Fácil de salir:** Puedes cerrar la aplicación en cualquier momento simplemente escribiendo `exit` o cerrando la ventana.
+**Clai** es una herramienta multipropósito de escritorio con interfaz gráfica basada en terminal oscura, diseñada para ejecutar operaciones de sistema, procesamiento de archivos PDF y descarga de contenido multimedia.
 
 ---
 
-## 🚀 Funcionalidades Principales
+## 🎨 Características
 
-* **🎵 Descarga de Medios:** Extrae y convierte audios de YouTube a formato `.mp3` o descarga videos en alta definición (`.mp4`).
-* **📄 Gestión de PDFs:** Lee texto de archivos `.pdf` directamente en pantalla, convierte notas de texto plano (`.txt`) a PDF y extrae rangos de páginas hacia nuevos documentos.
-* **📂 Navegación Integrada:** Explora tus carpetas y consulta archivos con tablas limpias y ordenadas.
+* **Interfaz Oscura Elegante:** Construida sobre `customtkinter` con paleta en tonos carbón y gris oscuro (`#121212`).
+* **Terminal Integrada:** Consola interactiva de salida en modo lectura para evitar modificaciones accidentales del texto.
+* **Descarga de Medios:** Descarga de videos e interacciones de audio (`get <URL>`).
+* **Herramientas PDF:** Lectura, conversión de `.txt` a `.pdf` y extracción de páginas.
+* **Utilidades de Sistema:** Navegación de directorios, información del sistema y comandos rápidos.
+* **Branding Integrado:** Comando `logo` para desplegar el emblema en arte ASCII a petición.
 
 ---
 
-## 🛠️ Modos de Uso
+## 🚀 Uso Rápido (Entorno Python)
 
-### Opción 1: Ejecutable Portátil (`Clai.exe`)
-1. Descarga el ejecutable desde la sección de **Releases** de GitHub en el repositorio **ClearTools**.
-2. Haz doble clic en `Clai.exe`.
-3. ¡Listo! Ya estás dentro de la consola interactiva.
+Para ejecutar la aplicación desde el código fuente:
 
-### Opción 2: Ejecución con Python
-Desde la raíz del repositorio, ejecuta:
-```cmd
+```bash
 python -m clai
