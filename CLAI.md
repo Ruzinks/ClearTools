@@ -17,7 +17,7 @@
 
 ## 📜 Historial de Versiones y Novedades
 
-### [v1.2.0] - 2026-08-30
+### [v1.2.0] - 30/08/26
 #### Añadido
 - **Módulo de Temas Persistentes (`theme`):** Selección y guardado de temas visuales (`dark`, `matrix`, `dracula`).
 - **Gestor de Tareas integradas (`todo`):** Comandos `add`, `list` y `clear` con almacenamiento local.
